@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
         }
         shell.addView(loadingBar, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, dp(3)))
         val scroll = ScrollView(this).apply {
-            fillViewport = true
+            isFillViewport = true  // Kotlin property for ScrollView.setFillViewport(true)
             isVerticalScrollBarEnabled = false
             clipToPadding = false
         }
