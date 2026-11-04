@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Bazr" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#081F38</item>
+        <item name="colorPrimaryVariant">#081F38</item>
+        <item name="colorSecondary">#C5A15A</item>
+        <item name="android:statusBarColor">#081F38</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">#F5F7FA</item>
+    </style>
+</resources>
